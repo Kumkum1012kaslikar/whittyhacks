@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&family=Spline+Sans:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "spline Sans", sans-serif;
+  color: #777;
+  line-height: 1.7;
+}
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.shadow-on-hover {
+  transition: all 0.4s;
+}
+
+.shadow-on-hover:hover {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: #222;
+}
+
+.nav-item {
+  padding: 15px;
+}
+
+.nav-item a {
+  color: #222;
+}
+
+.nav-item a:hover {
+  border-radius: 5px;
+
+  background-color: #b3aeae;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+  transition: all 0.4s;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #f58d17;
+}
+
+img {
+  padding: 0;
+  min-width: 100%;
+}
+
+.btn {
+  border-radius: 2;
+  padding: 14px 30px;
+}
+
+.btn-primary {
+  font-weight: 500;
+}
+
+.slide-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("image1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.slide-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("image2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 40px;
+  height: 70px;
+  margin: auto;
+}
+
+.intro-text {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.intro-text p {
+  max-width: 700px;
+  margin: 10px auto 0 auto;
+}
+
+#menu .nav-pills .nav-link {
+  background-color: #fff;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: #222;
+  border-radius: 100px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+#menu .nav-pills .nav-link.active {
+  background-color: #f58d17;
+  color: #fff;
+}
+
+.menu-item .stars {
+  color: #f58d17;
+}
+
+#features {
+  background: linear-gradient(rgba(0, 0, 0, 0.503), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1587815073078-f636169821e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c3RyYXdiZXJyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+}
+
+.feature {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.feature .feature-icon {
+  width: 75px;
+  height: 70px;
+  background-color: #f58d17;
+  color: #fff;
+  font-size: 25px;
+  display: inline-grid;
+  align-content: center;
+  text-align: center;
+}
+
+.team-member {
+  border-radius: 30px;
+}
+
+#reviews {
+  background: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+}
+
+.review .quote-icon {
+  font-size: 74px;
+  color: #f58d17;
+  line-height: 1;
+}
+
+.review .stars {
+  color: #f58d17;
+}
+
+#reviews .carousel-indicators {
+  margin-bottom: -3rem;
+}
+
+#reservation .form-control {
+  border-radius: 0;
+}
+
+#reservation .form-control:focus {
+  box-shadow: none;
+  border-color: #f58d17;
+}
+
+#reservation input.form-control {
+  height: 47px;
+}
+
+.blog-post {
+  max-width: 100%;
+
+  object-fit: cover;
+}
+
+#footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.923), rgba(0, 0, 0, 0.5)),
+    url("cvr1.jpg");
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+
+#footer p {
+  color: rgba(255, 255, 255, 0.948);
+}
+
+#footer a {
+  color: rgba(255, 255, 255, 0.948);
+}
+
+#footer .social-link {
+  margin: auto;
+}
+
+#footer h1 {
+  padding-bottom: 100px;
+  font-size: 40px;
+}
+
